@@ -95,29 +95,29 @@ public class Cat
         return result;
     }
 
-    public static void main (String... arg){
-
-        Cat cat = new Cat();
-        cat.initialize("Cat");
-        System.out.println(cat);
-
-        Cat cat1 = new Cat();
-        cat1.initialize("Seconds cat", 9, 3);
-        System.out.println(cat1);
-
-        Cat cat2 = new Cat();
-        cat2.initialize("Third name", 4);
-        System.out.println(cat2);
-
-        Cat cat3 = new Cat();
-        cat3.initialize(3, "White");
-        System.out.println(cat3);
-
-        Cat cat4 = new Cat();
-        cat4.initialize(5, "Grey", "Washington D.C.");
-        System.out.println(cat4);
-
-    }
+//    public static void main (String... arg){
+//
+//        Cat cat = new Cat();
+//        cat.initialize("Cat");
+//        System.out.println(cat);
+//
+//        Cat cat1 = new Cat();
+//        cat1.initialize("Seconds cat", 9, 3);
+//        System.out.println(cat1);
+//
+//        Cat cat2 = new Cat();
+//        cat2.initialize("Third name", 4);
+//        System.out.println(cat2);
+//
+//        Cat cat3 = new Cat();
+//        cat3.initialize(3, "White");
+//        System.out.println(cat3);
+//
+//        Cat cat4 = new Cat();
+//        cat4.initialize(5, "Grey", "Washington D.C.");
+//        System.out.println(cat4);
+//
+//    }
 
 
 }
