@@ -12,5 +12,22 @@ package com.javarush.test.level05.lesson07.task05;
 public class Rectangle
 {
     //напишите тут ваш код
+	private int top;
+	private int left;
+	private int width;
+	private height;
+	
+	public void initialize (int top, int left, int width, int height){
+		this.top = top;
+		this.left = left;
+		this.width = width;
+		this.height = height;
+	}
+	
+	public static void main (String[] args){
+		Rectangle rectangle = new Rectangle();
+		rectangle.initialize(0,0,10,20);
+		System.out.println(rectangle);
+	}
 
 }
