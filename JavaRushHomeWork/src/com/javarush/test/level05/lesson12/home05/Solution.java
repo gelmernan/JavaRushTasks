@@ -12,20 +12,15 @@ public class Solution
     public static void main(String[] args) throws Exception
     {
         //напишите тут ваш код
-        int count = 0;
-        int counter = 0;
-
-        String matchString = null;
+        final String matchWord = "сумма";
+        String container;
+        int sum = 0;
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-
-        while(!(matchString = reader.readLine()).equals("сумма"))
-
+        while (!((container = reader.readLine()).equals(matchWord)))
         {
-            counter++;
-            count = Integer.parseInt(reader.readLine());
+            sum += Integer.parseInt(container);
         }
 
-
-        System.out.println(count + "||" + counter);
+        System.out.println(sum);
     }
 }
