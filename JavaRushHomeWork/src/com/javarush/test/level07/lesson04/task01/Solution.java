@@ -21,11 +21,27 @@ public class Solution
     }
     public static int[] initializeArray() throws IOException {
         //Инициализируйте (создайте и заполните) массив тут
-        return null;
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        int[] array = new int[20];
+
+        for (int i = 0; i < array.length; i++)
+        {
+            array[i] = Integer.parseInt(reader.readLine());
+        }
+        return array;
     }
 
     public static int max(int[] array) {
         //Найдите максимальное значение в этом методе
-        return 0;
+        int max = array[0];
+
+        for (int i = 0; i < array.length; i++)
+        {
+            if (array[i] > max)
+            {
+                max = array[i];
+            }
+        }
+        return max;
     }
 }
